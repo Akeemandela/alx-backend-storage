@@ -1,0 +1,2 @@
+-- SQL script that creates table users
+CREATE TABLE users (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, email VARCHAR(255) NOT NULL UNIQUE KEY, name VARCHAR(255));
